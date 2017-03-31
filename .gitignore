@@ -1,0 +1,12 @@
+*.suo
+c11Test/c11Test.VC.db
+c11Test/c11Test.VC.VC.opendb
+*.idb
+*.pdb
+*.log
+*.pch
+*.tlog
+*.ipch
+*.obj
+*.filters
+*.ilk

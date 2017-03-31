@@ -2,11 +2,12 @@
 //
 
 #include "stdafx.h"
-#include <stdio.h>
-
+#include <iostream>
+using namespace std;
 int main()
 {
-	printf("hello world!");
+	cout << "Hello world!" << endl;
+	cout << "This is my first git demo!" << endl;
     return 0;
 }
 
