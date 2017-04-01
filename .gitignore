@@ -10,3 +10,8 @@ c11Test/c11Test.VC.VC.opendb
 *.obj
 *.filters
 *.ilk
+*.db
+*.opendb
+*.db
+AlgorithmTest/AlgorithmTest.VC.db
+*.db
