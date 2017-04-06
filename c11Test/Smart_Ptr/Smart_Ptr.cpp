@@ -8,7 +8,16 @@ using namespace std;
 class DataBuffer
 {
 public:
-	DataBuffer(int Num) :m_Num(Num)
+	struct MyUniqueStruct
+	{
+		MyUniqueStruct(int a, int b):m_a(a),m_b(b)
+		{
+
+		}
+		int m_a;
+		int m_b;
+	};
+	DataBuffer(int Num) :m_Num(Num),m_pUniqueItem(new MyUniqueStruct(1,5))
 	{
 
 	}
@@ -27,6 +36,8 @@ public:
 protected:
 private:
 	int m_Num;
+	//unique_ptr只能在某个对象独享，不可多个对象共享
+	std::unique_ptr<MyUniqueStruct> m_pUniqueItem;
 };
 class A
 {
@@ -43,6 +54,7 @@ public:
 		return m_dataA->get();
 	}
 protected:
+	//多个对象共享一个指针
 	std::shared_ptr<DataBuffer> m_dataA;
 private:
 };
