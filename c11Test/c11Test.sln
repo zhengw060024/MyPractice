@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntToTypeTemplate", "IntToT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C11testbookcplusplusprogram", "C11testbookcplusplusprogram\C11testbookcplusplusprogram.vcxproj", "{C8C199A0-2F14-4197-A61E-874B5C32E643}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C11Practice", "C11Practice\C11Practice.vcxproj", "{8062EADE-1462-4052-A9F8-CAD6029C1287}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{C8C199A0-2F14-4197-A61E-874B5C32E643}.Release|x64.Build.0 = Release|x64
 		{C8C199A0-2F14-4197-A61E-874B5C32E643}.Release|x86.ActiveCfg = Release|Win32
 		{C8C199A0-2F14-4197-A61E-874B5C32E643}.Release|x86.Build.0 = Release|Win32
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Debug|x64.ActiveCfg = Debug|x64
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Debug|x64.Build.0 = Debug|x64
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Debug|x86.ActiveCfg = Debug|Win32
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Debug|x86.Build.0 = Debug|Win32
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Release|x64.ActiveCfg = Release|x64
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Release|x64.Build.0 = Release|x64
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Release|x86.ActiveCfg = Release|Win32
+		{8062EADE-1462-4052-A9F8-CAD6029C1287}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
