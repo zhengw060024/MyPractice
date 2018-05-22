@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "Complex.h"
 #include <iostream>
+#include "VecTest.h"
 using namespace std;
 int main()
 {
@@ -13,6 +14,9 @@ int main()
 	Complex d = c * b;
 	cout << c << endl;
 	cout << d << endl;
+	// cout << -1 / 2 << endl;
+	VecTest temp = { 1,2,5,4,23 };
+	temp.PrintData();
 	getchar();
     return 0;
 }
